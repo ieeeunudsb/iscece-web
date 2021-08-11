@@ -102,3 +102,9 @@ dist
 
 # TernJS port file
 .tern-port
+
+# Custom
+/.idea
+/.vscode
+/mix-manifest.json
+package-lock.json
