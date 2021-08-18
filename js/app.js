@@ -1,63 +1,6 @@
 /******/ (() => { // webpackBootstrap
+/******/ 	"use strict";
 /******/ 	var __webpack_modules__ = ({
-
-/***/ "./resources/js/app.js":
-/*!*****************************!*\
-  !*** ./resources/js/app.js ***!
-  \*****************************/
-/***/ (() => {
-
-// import {hello} from './printer'
-//
-// let count = 0
-//
-// async function doGetPosts() {
-//     try {
-//         const posts = await $.ajax({url: "http://localhost:8080/wp-json/wp/v2/pages"});
-//         const htmlPosts = posts.map(res => {
-//             return res.content.rendered;
-//         })
-//         $("#post_list").html(htmlPosts)
-//         console.log("fn ke -->", ++count)
-//         // hello();
-//         console.log(window.location)
-//     } catch (e) {
-//         console.log(e)
-//         alert(e?.responseJSON.message)
-//     }
-// }
-// doGetPosts()
-//
-// function getPath(){
-//     return window.location;
-// }
-//
-// // getPath()
-//
-// // $("#post_list").html()
-
-/***/ }),
-
-/***/ "./resources/js/printer.js":
-/*!*********************************!*\
-  !*** ./resources/js/printer.js ***!
-  \*********************************/
-/***/ (() => {
-
-// $('document').ready(() => {
-//     window.a = $('footer div').text()
-//     console.log(a)
-// })
-//
-// function hello() {
-//     console.log("hello");
-// }
-//
-// export {hello};
-//
-// console.log("from printer.js")
-
-/***/ }),
 
 /***/ "./resources/css/app.css":
 /*!*******************************!*\
@@ -65,7 +8,6 @@
   \*******************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-"use strict";
 __webpack_require__.r(__webpack_exports__);
 // extracted by mini-css-extract-plugin
 
@@ -78,7 +20,6 @@ __webpack_require__.r(__webpack_exports__);
   \****************************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-"use strict";
 __webpack_require__.r(__webpack_exports__);
 // extracted by mini-css-extract-plugin
 
@@ -220,8 +161,6 @@ __webpack_require__.r(__webpack_exports__);
 /******/ 	// startup
 /******/ 	// Load entry module and return exports
 /******/ 	// This entry module depends on other loaded chunks and execution need to be delayed
-/******/ 	__webpack_require__.O(undefined, ["editor-style","css/app"], () => (__webpack_require__("./resources/js/app.js")))
-/******/ 	__webpack_require__.O(undefined, ["editor-style","css/app"], () => (__webpack_require__("./resources/js/printer.js")))
 /******/ 	__webpack_require__.O(undefined, ["editor-style","css/app"], () => (__webpack_require__("./resources/css/app.css")))
 /******/ 	var __webpack_exports__ = __webpack_require__.O(undefined, ["editor-style","css/app"], () => (__webpack_require__("./resources/css/editor-style.css")))
 /******/ 	__webpack_exports__ = __webpack_require__.O(__webpack_exports__);

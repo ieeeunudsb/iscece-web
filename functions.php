@@ -68,7 +68,8 @@ function tailpress_setup()
     // This theme uses wp_nav_menu() in one location.
     register_nav_menus(
         array(
-            'primary' => __('Primary Menu', 'tailpress'),
+            'menu1' =>'Primary Menu',
+            'menu2' => 'Menu Lain'
         )
     );
 
@@ -182,7 +183,7 @@ function init_routes()
 {
     require_once("vendor/autoload.php");
 
-    Routes::map('papers', function ($params) {
+    Routes::map('paper', function ($params) {
 //        $query = 'posts_per_page=3&post_type=' . $params['name'];
 //        Routes::load('custom_pages/papers.php', null, null, 200);
         Routes::load('custom_pages/papers.php', null, null, 200);
