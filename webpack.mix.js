@@ -3,7 +3,7 @@ let path = require('path');
 
 mix.setPublicPath(path.resolve('./'));
 
-mix.js('resources/js/*.js', 'js');
+mix.js('resources/js/*.js', 'js/app.js');
 
 mix.postCss("resources/css/app.css", "css");
 

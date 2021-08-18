@@ -1,36 +1,29 @@
 <?php get_header(); ?>
 
-<div class="mx-auto container py-2 relative">
+    <div class="mx-auto container py-2 ">
+        <div class="mx-auto relative" id="register-card">
 
-  <div class="mx-auto" id="register-card">
+            <div class="mt-6 absolute w-full">
+                <div class="text-5xl mx-auto text-center py-2">
+                    Register Now
+                </div>
+                <div class="flex flex-row justify-center py-6">
+                    <div class="hover:shadow-md cursor-pointer text-center p-2 rounded-sm bg-gray-500/20">
+                        Register
+                    </div>
+                </div>
+            </div>
 
-    <div class="py-10 absolute w-full">
-      <div class="text-5xl mx-auto text-center py-2">
-        Register Now
-      </div>
-      <div class="flex flex-row justify-center py-6">
-        <div class="hover:shadow-md cursor-pointer text-center p-2 rounded-sm bg-gray-500/20">
-          Register
+            <div class="bg-gray-200/80 h-48 my-2"></div>
+
         </div>
-      </div>
+
+        <div id="about-us-card" class="py-2">
+            <!-- p-about-us-card-->
+        </div>
+
+
     </div>
-
-    <div class="bg-gray-200/80 w-full h-48"></div>
-
-  </div>
-
-  <div id="about-iscece-card">
-    ICSGTEIS 2021 serves as an international 
-    forum for researchers and industry practitioners to present their research findings and innovation in the fields of
-    electrical engineering and information system. The conference is aimed at
-    facilitating the exchange of ideas in all aspect of green and smart technology. We
-    kindly invite scholars and industry practitioners from around the world to submit
-    research results and innovations to the ICSGTEIS 2021 to contribute in creating a
-    smart, green, and sustainable world.
-  </div>
-
-
-</div>
 
 <?php get_footer(); ?>
 
