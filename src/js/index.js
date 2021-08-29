@@ -1,25 +1,27 @@
 function RenderHeader(selector) {
-  const header = /*html*/`<header class="border-b sticky top-0 z-10 bg-white shadow  box-border relative">
+  const header = /*html*/`<header class="shadow relative">
     <div class="mx-auto container">
         <div class="flex justify-between">
             <!-- logo -->
-            <a href="/" class="py-2 my-auto">Logo ISCECE</a>
+            <a href="/" class="py-2">
+                <img alt="" width="50" src="/src/img/iscece_logo.png">
+            </a>
 
             <!-- menu -->
-            <div class="hidden lg:flex">
+            <div class="hidden lg:flex my-auto">
                 <a href="/paper"
-                   class="focus:outline-none p-2 cursor-pointer border-b-2 border-transparent hover:border-black">
+                   class="text-xl focus:outline-none p-2 cursor-pointer border-b-2 border-transparent hover:border-black">
                     Paper
                 </a>
 
                 <a href="/conference"
-                   class="focus:outline-none p-2 cursor-pointer border-b-2 border-transparent hover:border-black">
+                   class="text-xl focus:outline-none p-2 cursor-pointer border-b-2 border-transparent hover:border-black">
                     Conference
                 </a>
             </div>
 
             <!-- mobile button-->
-            <div id="mobile-menu-btn" class="lg:hidden py-2 cursor-pointer">
+            <div id="mobile-menu-btn" class="lg:hidden py-2 cursor-pointer my-auto">
                 <svg viewBox="0 0 20 20" class="inline-block w-6 h-6" xmlns="http://www.w3.org/2000/svg"
                      xmlns:xlink="http://www.w3.org/1999/xlink">
                     <g stroke="none" stroke-width="1" fill="currentColor" fill-rule="evenodd">
@@ -46,7 +48,7 @@ function RenderHeader(selector) {
         </div>
 
         <!-- backdrop blur filter -->
-        <div class="min-h-screen bg-gray-50/10 backdrop-filter backdrop-blur-sm relative"></div>
+        <div class="z-10 min-h-screen bg-gray-50/10 backdrop-filter backdrop-blur-sm relative"></div>
     </div>
 </header>`
 
